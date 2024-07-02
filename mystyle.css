@@ -71,7 +71,7 @@ a{
 .img{
     text-align: center;
     align-content: center;
-    background-color: #bbb;
+    background-color: #aaaaaae1;
     color: var(--headerLogo);
     flex-basis: 35%;
 }
@@ -83,6 +83,7 @@ a{
 }
 .main{
     flex-basis: 20%;
+    margin-top: 1px;
 }
 .front-page p{
     font-size: 18px;
@@ -104,4 +105,95 @@ a{
 .rando-info{
     height: 50vh;
     width: 100%;
+}
+.randotext{
+    align-content: center;
+    text-align: center;
+    height: 30%;
+    font-size: 36px;
+    font-weight: 900;
+}
+.cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+.card{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+}
+.card div{
+    margin:auto;
+    width: 200px;
+    height: 200px;
+    border: 5px solid var(--btncolor);
+    border-radius: 10px;
+}
+.card p{
+    margin-top: 10px;
+}
+.quote{
+    height: 50vh;
+    background-color: var(--quote-bg);
+    align-content: center;
+}
+.quote div{
+    width: 70%;
+    margin: auto;
+    font-style: italic;
+}
+.quote-text{
+    font-size: 36px;
+    color: var(--quote-txt);
+}
+.author{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+.signup{
+    height: 40vh;
+    align-content: center;
+    color: var(--headerLogo);
+}
+.signup .signup-form{
+    width: 65%;
+    margin: auto;
+    height: 40%;
+    border-radius: 10px;
+    background-color: var(--btncolor);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup-text{
+    font-size: 20px;
+    font-weight: 700;
+}
+.signup p{
+    color: var(--heroSecond);
+}
+.signup button{
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: var(--btncolor);
+    color: var(--headerLogo);
+    padding: 5px;
+    width: 100px;
+    font-weight: 600;
+}
+
+.footer{
+    height: 10vh;
+    align-content: center;
+    text-align: center;
+    background-color: var(--darkbg);
+    color: var(--headerLogo);
 }
